@@ -18,8 +18,9 @@ connection: {
   database : 'rapidapi_db'
 } 
 ```
-To import DB structure and init data (two users) download sql script ``` rapidapi_db_2018-08-24.sql ``` from the project root.
-Then run ``` $ mysqldump -P 3306 -h [YOUR_DB_HOST] -u [YOUR_DB_USER] -p[YOUR_DB_PAASSWORD] rapidapi_db > rapidapi_db_2018-08-24.sql  ```
+To import DB structure and init data (two users) download sql script ``` rapidapi_db_2018-08-24.sql ``` from the project root.<br/>
+Then run ``` $ mysqldump -P 3306 -h [YOUR_DB_HOST] -u [YOUR_DB_USER] -p[YOUR_DB_PAASSWORD] rapidapi_db > rapidapi_db_2018-08-24.sql  ```<br/>
+To preview DB you can open ``` rapidapi.mwb ``` with MySQL Workbench https://www.mysql.com/products/workbench/
 #### Application ####
 * Clone the project to your disk ``` git clone git@github.com:Chart3JS/Rapid-s3.git ```
 * Run ``` npm install ``` from the project dir
