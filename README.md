@@ -3,7 +3,7 @@ Storage API project - backend file storage build exercise
 
 ### Project structure ###
 *app.js* - main file to start application.
-*public* directory contains files and directory of WPA built with Vue, Vuex, Vuetify in complement project you can to download and rebuild
+*public* directory contains files and directory of WPA built with Vue, Vuex, Vuetify in complement project you can to download from https://github.com/Chart3JS/RapidAPI-s3-UI and rebuild
 
 ### Installation ###
 To install and run the project you need node.js >= v8.* and mysql DB installed
