@@ -2,9 +2,9 @@ module.exports = {
 	db: {
 		client: 'mysql2',
 		connection: {
-			host : '127.0.0.1',
-	    user : 'root',
-	    password : 'Ald0n1n!',
+			host : 'DB_HOST',
+	    user : 'YOU_DB_USER',
+	    password : 'YOUR_DB_PASSWORD',
 	    database : 'rapidapi_db'
 		},
 		pool: { min: 0, max: 7 }
